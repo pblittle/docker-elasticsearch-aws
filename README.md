@@ -2,10 +2,12 @@
 
 This is an Elasticsearch [docker](https://www.docker.com) image bundled with a handful plugins to ease deployment to AWS. The image uses the [offical Elasticsearch image](https://hub.docker.com/_/elasticsearch).
 
-## Plugins Included
+## Plugins Installed
 
-* [AWS Cloud Plugin](https://github.com/elastic/elasticsearch-cloud-aws)
-* [Head Plugin](https://github.com/mobz/elasticsearch-head)
+| Name | Default Version | Environment Variable |
+|------|-----------------|----------------------|
+| [AWS Cloud](https://github.com/elastic/elasticsearch-cloud-aws) | `2.7.1` | `CLOUD_AWS_VERSION` |
+| [Head](https://github.com/mobz/elasticsearch-head) | - | - |
 
 ## Contributing
 
