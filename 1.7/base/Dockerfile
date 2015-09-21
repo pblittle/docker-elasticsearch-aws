@@ -7,5 +7,4 @@ ENV PATH ${ES_HOME}/bin:$PATH
 
 ENV CLOUD_AWS_VERSION 2.7.1
 
-RUN plugin --install elasticsearch/elasticsearch-cloud-aws/${CLOUD_AWS_VERSION} \
-    && plugin --install mobz/elasticsearch-head
+RUN plugin --install elasticsearch/elasticsearch-cloud-aws/${CLOUD_AWS_VERSION}
