@@ -10,7 +10,7 @@ build:
 
 .PHONY: run
 run: build
-	docker run --rm -d --name elasticsearch $(NAME):$(VERSION)
+	docker run -d --name elasticsearch $(NAME):$(VERSION)
 
 .PHONY: shell
 shell:
