@@ -1,4 +1,4 @@
-FROM elasticsearch:1.7.1
+FROM elasticsearch:1.7.3
 MAINTAINER P. Barrett Little <barrett@barrettlittle.com> (@pblittle)
 
 ENV ES_HOME /usr/share/elasticsearch
